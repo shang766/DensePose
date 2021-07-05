@@ -1,3 +1,4 @@
+#configs 即为配置文件，由于模型中参数过多，使用yaml文件来统一管理.主要的不同体现在CONV_BODY上。主要是使用了Fast-RCNN,FPN以及BODY_UV_RCNN，这个yaml文件则多了MRCNN和KRCNN.
 MODEL:
   TYPE: generalized_rcnn
   CONV_BODY: FPN.add_fpn_ResNet50_conv5_body
