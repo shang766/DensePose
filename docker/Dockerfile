@@ -1,3 +1,5 @@
+#提供Docker文件，以便部署到Docker环境中
+
 # Use Caffe2 image as parent image
 FROM caffe2/caffe2:snapshot-py2-cuda9.0-cudnn7-ubuntu16.04
 
